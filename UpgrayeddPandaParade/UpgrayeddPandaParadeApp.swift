@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct UpgrayeddPandaParadeApp: App {
+    @State private var updatedFetcher = UpdatedPandaFetcher()
     var body: some Scene {
         WindowGroup {
             PandaParade()
+                .environment(updatedFetcher)
         }
     }
 }
