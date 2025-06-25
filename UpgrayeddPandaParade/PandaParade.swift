@@ -97,7 +97,7 @@ struct PandaParade: View {
         .task {
             try? await fetcher.fetchData()
         }
-        .navigationTitle("Meme Creator")
+        .navigationTitle("Panda Parade")
     }
 }
 
