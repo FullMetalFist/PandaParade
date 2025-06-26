@@ -3,9 +3,17 @@
 //  UpgrayeddPandaParade
 //
 //  Created by Michael Vilabrera on 6/25/25.
-//
+//  Originally from Apple
+//  
 
 import SwiftUI
+
+//
+// This is only an update to 🍎's tutorial found here:
+// https://developer.apple.com/tutorials/sample-apps/memecreator
+// using this guide:
+// https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
+//
 
 @Observable
 class UpdatedPandaFetcher {
